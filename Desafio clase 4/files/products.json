@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"titulo": "Notebook Samsung",
+		"descripcion": "pc de alta gama",
+		"precio": 676885,
+		"thumbnail": "sin imagen",
+		"code": "NBK1254",
+		"stock": 10
+	},
+	{
+		"id": 3,
+		"titulo": "Telefono Samsung S23 Ultra 256gs",
+		"descripcion": "Telefono de alta gama",
+		"precio": 415885,
+		"thumbnail": "sin imagen",
+		"code": "CEL254",
+		"stock": 25
+	}
+]
