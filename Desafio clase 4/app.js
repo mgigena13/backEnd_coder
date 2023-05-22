@@ -1,58 +1,62 @@
-import ProductsManager from "./managers/productManager.js";
+import ProductManager from "./managers/productManager.js";
 
-const productsManager = new ProductsManager();
+const productManager = new ProductManager();
 
 const envio = async() => {
-    let productos = await productsManager.getProductos();
-    //console.log({ productos });
+    let products = await productManager.getProducts();
 
-    let producto = {
+    let product = {
         id: '',
-        titulo: 'Telefono Samsung S23 Ultra 256gs',
-        descripcion: 'Telefono de alta gama',
-        precio: 415885,
-        thumbnail: 'sin imagen',
-        code: 'CEL254',
-        stock: 25
+        title: 'MEMORIA RAM DDR4 32GB 3200MHZ ADATA XPG D50',
+        description: '32GB, CL 16-20-20, 3200MHz',
+        price: 175779,
+        thumbnail: 'https://www.venex.com.ar/products_images/1631807893_s56f4g.jpg',
+        code: 'AX4U320032G16A',
+        stock: 4
     }
 
-    /*
-        // Agrega producto
-        await productsManager.crearProducto(producto);
-        productos = await productsManager.getProductos();
-        console.log({ productos });
-    */
-    /*
-        //Eliminar producto
-        try {
-            await productsManager.deleteProducto(2);
-            productos = await productsManager.getProductos();
-            console.log('El producto ha sido eliminado');
-        } catch (error) {
-            console.log(error.message);
-        }
-    */
-    /*
-        // busco producto por ID
-        try {
-            const productoEncontrado = await productsManager.getProductById(3);
-            console.log({ productoEncontrado });
-        } catch (error) {
-            console.log(error.message);
-        }
-        */
 
-    // Actualizar producto por ID
+    // Agrega producto
     try {
+        await productManager.createProduct(product);
+        //products = await productManager.getProducts();
+        //console.log({product});
+    } catch (error) {
+        console.log(error);
+    }
 
-        const idProducto = 3;
-        const nuevosDatos = { titulo: 'Otro telefono', precio: 254 };
-        const productoActualizado = await productsManager.updateProducto(idProducto, nuevosDatos);
-        console.log({ productoActualizado });
+
+    /*
+    //Eliminar producto
+    try {
+        await productManager.deleteProduct(2);
+        products = await productManager.getProducts();
+        console.log('El producto ha sido eliminado');
     } catch (error) {
         console.log(error.message);
     }
+    */
 
+    /*
+        // busco producto por ID
+        try {
+            const productFound = await productManager.getProductById(11);
+            console.log({ productFound });
+        } catch (error) {
+            console.log(error.message);
+        }
+    */
+    /*
+        // Actualizar producto por ID
+        try {
+            const productId = 3;
+            const newProductData = { title: 'Samsung S23', price: 254 };
+            const updatedProduct = await productManager.updateProduct(productId, newProductData);
+            console.log({ updatedProduct });
+        } catch (error) {
+            console.log(error.message);
+        }
+    */
 }
 
 envio();
