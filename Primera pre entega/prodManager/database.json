@@ -1,0 +1,111 @@
+[{
+        "id": 1,
+        "title": "Telefono Samsung S23 Ultra 256gs",
+        "description": "Telefono de alta gama",
+        "price": 415885,
+        "thumbnail": "sin imagen",
+        "code": "CEL254",
+        "stock": 25,
+        "category": "prueba de postman",
+        "status": true
+    },
+    {
+        "id": 2,
+        "title": "Notebook Acer 32gb ram",
+        "description": "compu de alta gama",
+        "price": 385457,
+        "thumbnail": "sin imagen",
+        "code": "NTK654",
+        "stock": 45,
+        "category": "prueba de postman",
+        "status": true
+    },
+    {
+        "id": 3,
+        "title": "Smart watch Samsung pro",
+        "description": "Reloj inteligente",
+        "price": 98578,
+        "thumbnail": "sin imagen",
+        "code": "RLJ654",
+        "stock": 79,
+        "category": "prueba de postman",
+        "status": true
+    },
+    {
+        "id": 4,
+        "title": "RTX 3080 TI MSI",
+        "description": "Placa de video",
+        "price": 198765,
+        "thumbnail": "sin imagen",
+        "code": "INF654",
+        "stock": 12,
+        "category": "prueba de postman",
+        "status": true
+    },
+    {
+        "id": 5,
+        "title": "RTX 4080 TI MSI",
+        "description": "Placa de video",
+        "price": 298765,
+        "thumbnail": "sin imagen",
+        "code": "INF655",
+        "stock": 12,
+        "category": "prueba de postman",
+        "status": true
+    },
+    {
+        "id": 6,
+        "title": "Gabinete Corsair 7000S",
+        "description": "Gabinetes",
+        "price": 175982,
+        "thumbnail": "sin imagen",
+        "code": "INF657",
+        "stock": 15,
+        "category": "prueba de postman",
+        "status": true
+    },
+    {
+        "id": 7,
+        "title": "DISCO SOLIDO SSD 240GB WESTERN DIGITAL WD SN350 GREEN NVME 2400MB/S",
+        "description": "l SSD WD Green ™ SN350 NVMe ™ puede revitalizar su vieja computadora para el uso diario. Ya sea que esté en clase, comprando, chateando o navegando, esta unidad puede funcionar hasta cuatro veces más rápido2 que las unidades SATA. Debido a que no tienen partes móviles, las SSD ofrecen un diseño resistente a los golpes para ayudar a proteger sus datos importantes contra golpes y caídas accidentales. El factor de forma delgado M.2 2280 permite una actualización rápida y fácil para cualquier computadora con una ranura NVMe. Además, con Western Digital® SSD Dashboard descargable, también puede controlar el estado de su disco para mayor tranquilidad.",
+        "price": 15990,
+        "thumbnail": "https://www.venex.com.ar/products_images/1620247071_wd-green-sn350-nvme-ssd-240gb.png.wdthumb.1280.1280.png",
+        "code": "WDS240G2G0C ",
+        "stock": 14,
+        "category": "prueba de postman",
+        "status": true
+    },
+    {
+        "id": 8,
+        "title": "MONITOR 22 LED SAMSUNG T350 FHD IPS 5MS HDMI VGA 75HZ",
+        "description": "Tamaño de pantalla (pulgadas) 22, Resolución 1.920 x 1.080",
+        "price": 53990,
+        "thumbnail": "https://www.venex.com.ar/products_images/1633033971_sd651f4s.png",
+        "code": "LF22T350FHLC  ",
+        "stock": 84,
+        "category": "prueba de postman",
+        "status": true
+    },
+    {
+        "id": 9,
+        "title": "COMBO DE ACTUALIZACION INTEL I5 10400",
+        "description": "Combo para actualizar tu pc",
+        "price": 175779,
+        "thumbnail": "https://www.venex.com.ar/products_images/1608393483_sinttulo2.png",
+        "code": "INT52432AS  ",
+        "stock": 84,
+        "category": "prueba de postman",
+        "status": true
+    },
+    {
+        "id": 10,
+        "title": "MEMORIA RAM DDR4 32GB 3200MHZ ADATA XPG D50",
+        "description": "32GB, CL 16-20-20, 3200MHz",
+        "price": 175779,
+        "thumbnail": "https://www.venex.com.ar/products_images/1631807893_s56f4g.jpg",
+        "code": "AX4U320032G16A",
+        "stock": 4,
+        "category": "prueba de postman",
+        "status": true
+    }
+]
